@@ -1,0 +1,18 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "name": "Portfolio Website",
+      "thumbnail": "/images/portfolio.png",
+      "description": "A portfolio to showcase my skills and projects.",
+      "link": "https://example.com/portfolio"
+    },
+    {
+      "id": 2,
+      "name": "Weather App",
+      "thumbnail": "/images/weather.png",
+      "description": "A weather app showing real-time data.",
+      "link": "https://example.com/weather"
+    }
+  ]
+}

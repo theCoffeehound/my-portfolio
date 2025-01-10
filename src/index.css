@@ -1,0 +1,45 @@
+:root {
+  /* Primary Color */
+  --primary-color: #1E90FF; /* Blue */
+
+  /* Secondary Color */
+  --secondary-color: #32CD32; /* Light Green */
+
+  /* Neutral Colors */
+  --text-color: #333333; /* Dark Gray for text */
+  --background-color: #F8F8F8; /* Light Gray background */
+  --footer-background: #2F2F2F; /* Dark Gray for footer */
+  
+  /* Accent Color */
+  --accent-color: #FFA500; /* Bright Orange */
+
+  /* Link Color */
+  --link-color: #1E90FF; /* Blue links */
+  --link-hover-color: #32CD32; /* Light Green hover */
+}
+
+/* Default light mode */
+path {
+  fill: #000000; /* Black for light mode */
+}
+
+/* Dark mode styles */
+body.dark-mode path {
+  fill: #ffffff; /* White for dark mode */
+}
+
+/* Light Mode Styles */
+body.light-mode {
+  background-color: #ffffff;
+  color: #333333;
+  --footer-background: #f1f1f1;  /* Light mode footer color */
+  --footer-text: #333333;         /* Light mode text color */
+}
+
+/* Dark Mode Styles */
+body.dark-mode {
+  background-color: #333;
+  color: #ffffff;
+  --footer-background: #333333;  /* Dark mode footer color */
+  --footer-text: #ffffff;         /* Dark mode text color */
+}

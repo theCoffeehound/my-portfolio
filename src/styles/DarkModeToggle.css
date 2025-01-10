@@ -1,0 +1,85 @@
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+.switch input { 
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: var(--text-secondary);
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+/* Change background color and slider position when checked */
+input:checked + .slider {
+  background-color: var(--accent-color);
+}
+
+input:checked + .slider:before {
+  transform: translateX(26px);
+}
+
+/* Round slider */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+/* Positioning the moon and sun icons */
+.icon-moon, .icon-sun {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 16px;
+  height: 16px;
+  transition: visibility 0.3s ease;
+}
+
+/* Moon icon is visible when dark mode is active */
+.icon-moon {
+  left: 10px;
+  visibility: hidden;  /* Hidden by default */
+}
+
+.icon-sun {
+  right: 10px;
+  visibility: visible;  /* Sun icon is visible by default */
+}
+
+/* Show sun icon when dark mode is off (checkbox is unchecked) */
+input:checked + .slider .icon-sun {
+  visibility: hidden;
+}
+
+/* Show moon icon when dark mode is on (checkbox is checked) */
+input:checked + .slider .icon-moon {
+  visibility: visible;
+}

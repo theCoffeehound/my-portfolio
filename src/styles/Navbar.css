@@ -1,0 +1,21 @@
+.navbar {
+  display: grid;
+  grid-template-columns: 3fr 9fr 0.5fr;
+  padding: 1rem;
+}
+
+.navbar-brand, 
+.navbar-links,
+.navbar-actions{
+  display: flex;
+  align-items: center;
+}
+
+.navbar-links{
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.navbar-links .navbar-link {
+  margin-right: 1rem;
+}

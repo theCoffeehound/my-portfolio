@@ -1,0 +1,140 @@
+/* App.css */
+body {
+  transition: background-color 0.3s, color 0.3s, all 0.3s ease-in-out;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+.wrapper {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  height: 100%;
+}
+
+/* Content area */
+.content {
+  flex: 1;
+  padding: 20px;
+}
+
+
+/* Light Mode Styles */
+body.light-mode {
+  background-color: #f1f1f1;
+  color: #333333;
+}
+
+body.light-mode .navbar {
+  background-color: #f1f1f1;
+  color: #333333;
+}
+
+body.light-mode .navbar-brand .brand {
+  color: #333333;
+}
+
+body.light-mode .navbar-link {
+  color: #333333;
+}
+
+body.light-mode .navbar-link:hover {
+  color: #007bff;
+}
+
+body.light-mode .navbar-actions button {
+  background-color: #007bff;
+  color: #ffffff;
+  border: none;
+  padding: 8px 16px;
+  cursor: pointer;
+}
+
+body.light-mode .navbar-actions button:hover {
+  background-color: #0056b3;
+}
+
+/* Dark Mode Styles */
+body.dark-mode {
+  background-color: #333;
+  color: #ffffff;
+}
+
+body.dark-mode .navbar {
+  background-color: #333333;
+  color: #ffffff;
+}
+
+body.dark-mode .navbar-brand .brand {
+  color: #ffffff;
+}
+
+body.dark-mode .navbar-link {
+  color: #ffffff;
+}
+
+body.dark-mode .navbar-link:hover {
+  color: #007bff;
+}
+
+body.dark-mode .navbar-actions button {
+  background-color: #007bff;
+  color: #f1f1f1;
+  border: none;
+  padding: 8px 16px;
+  cursor: pointer;
+}
+
+body.dark-mode .navbar-actions button:hover {
+  background-color: #0056b3;
+}
+
+/* Dark Mode Toggle Styles */
+.dark-mode-toggle {
+  display: inline-block;
+  position: relative;
+  width: 60px;
+  height: 30px;
+}
+
+.dark-mode-toggle input {
+  display: none;
+}
+
+.dark-mode-toggle .icon-moon,
+.dark-mode-toggle .icon-sun {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 20px;
+  height: 20px;
+  pointer-events: none;
+}
+
+.dark-mode-toggle .icon-moon {
+  left: 10px;
+}
+
+.dark-mode-toggle .icon-sun {
+  right: 10px;
+}
+
+/* Settings Dropdown */
+.settings-dropdown {
+  position: absolute;
+  top: 50px;
+  right: 10px;
+  background-color: #f1f1f1;
+  border: 1px solid #ccc;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  z-index: 100;
+}
+
+.settings-dropdown .dropdown-item {
+  margin: 5px 0;
+}

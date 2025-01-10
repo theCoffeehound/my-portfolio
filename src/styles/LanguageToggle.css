@@ -1,0 +1,71 @@
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+  }
+  
+  .switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    transition: .4s;
+    border-radius: 34px;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    border-radius: 50%;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    transition: .4s;
+  }
+  
+  input:checked + .slider {
+    background-color: #2196F3;
+  }
+  
+  input:checked + .slider:before {
+    transform: translateX(26px);
+  }
+  
+  /* Position the flags on the opposite sides of the slider */
+  .icon {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 20px;
+    transition: opacity 0.3s;
+  }
+  
+  .icon.active {
+    opacity: 1;
+  }
+  
+  .icon:not(.active) {
+    opacity: 0;
+  }
+  
+  /* Place the flags on the opposite sides of the toggle */
+  .icon:nth-child(1) {
+    right: 8px; /* Move the first flag (English) to the right */
+  }
+  
+  .icon:nth-child(2) {
+    left: 8px; /* Move the second flag (Finnish) to the left */
+  }
+  

@@ -1,0 +1,28 @@
+{
+  "en": {
+    "navbar": {
+      "home": "Home",
+      "about": "About",
+      "projects": "Projects",
+      "contact": "Contact"
+    },
+    "home": {
+      "welcome": "Hi, I'm ",
+      "description": "I am young coder."
+    },
+    "brand": "Iiro Välimaa"
+  },
+  "fi": {
+    "navbar": {
+      "home": "Etusivu",
+      "about": "Tietoja",
+      "projects": "Projektit",
+      "contact": "Yhteys"
+    },
+    "home": {
+      "welcome": "Hei, olen ",
+      "description": "Olen nuori koodari."
+    },
+    "brand": "Iiro Välimaa"
+  }
+}
