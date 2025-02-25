@@ -10,7 +10,18 @@
       "welcome": "Hi, I'm ",
       "description": "I am young coder."
     },
-    "brand": "Iiro Välimaa"
+    "projects": {
+      "title": "Projects",
+      "description": "Here are some of my projects.",
+      "allTechnologies": "All",
+      "selectTechnology": "Select technology",
+      "sortNewest": "Newest",
+      "sortOldest": "Oldest",
+      "sortAZ": "A-Z",
+      "technologies": "Technologies"
+    },
+    "brand": "Iiro Välimaa",
+    "readMore": "Read more"
   },
   "fi": {
     "navbar": {
@@ -23,6 +34,17 @@
       "welcome": "Hei, olen ",
       "description": "Olen nuori koodari."
     },
-    "brand": "Iiro Välimaa"
+    "projects": {
+      "title": "Projektit",
+      "description": "Tässä on muutamia projektejani.",
+      "allTechnologies": "Kaikki",
+      "selectTechnology": "Valitse teknologia",
+      "sortNewest": "Uusin",
+      "sortOldest": "Vanhin",
+      "sortAZ": "A-Z",
+      "technologies": "Teknologiat"
+    },
+    "brand": "Iiro Välimaa",
+    "readMore": "Lue lisää"
   }
 }

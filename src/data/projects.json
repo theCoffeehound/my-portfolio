@@ -1,18 +1,381 @@
 {
   "projects": [
     {
-      "id": 1,
-      "name": "Portfolio Website",
-      "thumbnail": "/images/portfolio.png",
-      "description": "A portfolio to showcase my skills and projects.",
-      "link": "https://example.com/portfolio"
+      "title": {
+        "en": "Ravitsemusnavigaattori",
+        "fi": "Ravitsemusnavigaattori"
+      },
+      "description": {
+        "en": "A nutrition navigator app.",
+        "fi": "Sovellus terveellisiin ruokavalintoihin."
+      },
+      "images": [
+        "/assets/images/projects/ravitsemusnavigaattori_etusivu.png"
+      ],
+      "link": "#",
+      "technologies": [
+        "MongoDB",
+        "Express",
+        "React",
+        "Node.js",
+        "CSS",
+        "JavaScript"
+      ],
+      "date": "2024-01-01",
+      "context": {
+        "en": "Job",
+        "fi": "Työ"
+      },
+      "chapters": [
+        {
+          "title": {
+            "en": "Introduction",
+            "fi": "Johdanto"
+          },
+          "content": {
+            "en": "This project was developed to assist users in making healthier food choices by providing nutritional information.",
+            "fi": "Tämä projekti kehitettiin auttamaan käyttäjiä tekemään terveellisempiä ruokavalintoja tarjoamalla ravitsemustietoa."
+          }
+        },
+        {
+          "title": {
+            "en": "Development",
+            "fi": "Kehitys"
+          },
+          "content": {
+            "en": "The application was built using the MERN stack and involved extensive use of MongoDB for data storage.",
+            "fi": "Sovellus rakennettiin MERN-pinoa käyttäen ja siihen liittyi laaja MongoDB:n käyttö tietojen tallennukseen."
+          }
+        }
+      ]
     },
     {
-      "id": 2,
-      "name": "Weather App",
-      "thumbnail": "/images/weather.png",
-      "description": "A weather app showing real-time data.",
-      "link": "https://example.com/weather"
+      "title": {
+        "en": "Summer-course MERN-2022",
+        "fi": "Kesäkurssi MERN-2022"
+      },
+      "description": {
+        "en": "First working MERN-app from a summer course.",
+        "fi": "Ensimmäinen toimiva MERN-sovellus kesäkurssilta."
+      },
+      "images": [
+        "/assets/images/projects/mern2022_etusivu.png"
+      ],
+      "link": "#",
+      "technologies": [
+        "MongoDB",
+        "Express",
+        "React",
+        "Node.js",
+        "Bootstrap",
+        "JavaScript"
+      ],
+      "date": "2022-06-01",
+      "context": {
+        "en": "School project",
+        "fi": "Kouluprojekti"
+      },
+      "chapters": [
+        {
+          "title": {
+            "en": "Course Overview",
+            "fi": "Kurssin yleiskatsaus"
+          },
+          "content": {
+            "en": "This project was part of a summer course where we learned to build applications using the MERN stack.",
+            "fi": "Tämä projekti oli osa kesäkurssia, jossa opimme rakentamaan sovelluksia MERN-pinoa käyttäen."
+          }
+        },
+        {
+          "title": {
+            "en": "Challenges",
+            "fi": "Haasteet"
+          },
+          "content": {
+            "en": "One of the main challenges was integrating all the components of the MERN stack seamlessly.",
+            "fi": "Yksi suurimmista haasteista oli kaikkien MERN-pinoon kuuluvien komponenttien saumaton integrointi."
+          }
+        }
+      ]
+    },
+    {
+      "title": {
+        "en": "Browser start page",
+        "fi": "Selaimen aloitussivu"
+      },
+      "description": {
+        "en": "A simple start page for my browser.",
+        "fi": "Yksinkertainen aloitussivu selaimelleni."
+      },
+      "images": [
+        "https://placeholdmon.vercel.app/?pikachu"
+      ],
+      "link": "#",
+      "technologies": [
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ],
+      "date": "2022-12-10",
+      "context": {
+        "en": "Freetime",
+        "fi": "Vapaa-aika"
+      },
+      "chapters": [
+        {
+          "title": {
+            "en": "Concept",
+            "fi": "Konsepti"
+          },
+          "content": {
+            "en": "The idea was to create a personalized start page for my browser with quick access to my favorite sites.",
+            "fi": "Ideana oli luoda personoitu aloitussivu selaimelleni, josta pääsee nopeasti suosikkisivustoilleni."
+          }
+        },
+        {
+          "title": {
+            "en": "Implementation",
+            "fi": "Toteutus"
+          },
+          "content": {
+            "en": "The start page was built using basic web technologies like HTML, CSS, and JavaScript.",
+            "fi": "Aloitussivu rakennettiin käyttämällä perusverkkoteknologioita, kuten HTML, CSS ja JavaScript."
+          }
+        }
+      ]
+    },
+    {
+      "title": {
+        "en": "Portfolio",
+        "fi": "Portfolio"
+      },
+      "description": {
+        "en": "My portfolio.",
+        "fi": "Oma portfolio."
+      },
+      "images": [
+        "https://placeholdmon.vercel.app/?pikachu"
+      ],
+      "link": "#",
+      "technologies": [
+        "React",
+        "JavaScript",
+        "CSS"
+      ],
+      "date": "2025-03-01",
+      "context": {
+        "en": "Freetime",
+        "fi": "Vapaa-aika"
+      },
+      "chapters": [
+        {
+          "title": {
+            "en": "Purpose",
+            "fi": "Tarkoitus"
+          },
+          "content": {
+            "en": "The portfolio was created to showcase my projects and skills.",
+            "fi": "Portfolio luotiin esittelemään projektejani ja taitojani."
+          }
+        },
+        {
+          "title": {
+            "en": "Design",
+            "fi": "Suunnittelu"
+          },
+          "content": {
+            "en": "The design focuses on simplicity and ease of navigation.",
+            "fi": "Suunnittelussa keskityttiin yksinkertaisuuteen ja helppoon navigointiin."
+          }
+        }
+      ]
+    },
+    {
+      "title": {
+        "en": "Previous portfolio",
+        "fi": "Edellinen portfolio"
+      },
+      "description": {
+        "en": "My previous portfolio.",
+        "fi": "Perinteinen staattinen HTML, CSS ja JavaScript -portfolio. Hostattu GitHub Pagesilla."
+      },
+      "images": [
+        "https://placeholdmon.vercel.app/?pikachu"
+      ],
+      "link": "#",
+      "technologies": [
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ],
+      "date": "2023-10-25",
+      "context": {
+        "en": "Freetime",
+        "fi": "Vapaa-aika"
+      },
+      "chapters": [
+        {
+          "title": {
+            "en": "Evolution",
+            "fi": "Evoluutio"
+          },
+          "content": {
+            "en": "This portfolio represents an earlier stage in my development journey.",
+            "fi": "Tämä portfolio edustaa varhaisempaa vaihetta kehitysmatkallani."
+          }
+        },
+        {
+          "title": {
+            "en": "Hosting",
+            "fi": "Isännöinti"
+          },
+          "content": {
+            "en": "It was hosted on GitHub Pages, showcasing my ability to deploy static sites.",
+            "fi": "Se oli hostattu GitHub Pagesilla, mikä osoittaa kykyni ottaa käyttöön staattisia sivustoja."
+          }
+        }
+      ]
+    },
+    {
+      "title": {
+        "en": "Simple chat",
+        "fi": "Yksinkertainen chat"
+      },
+      "description": {
+        "en": "Simple chat for my local projects.",
+        "fi": "Yksinkertainen chat paikallisille projekteilleni."
+      },
+      "images": [
+        "https://placeholdmon.vercel.app/?pikachu"
+      ],
+      "link": "#",
+      "technologies": [
+        "MongoDB",
+        "Express",
+        "React",
+        "Node.js",
+        "JavaScript"
+      ],
+      "date": "2025-03-01",
+      "context": {
+        "en": "Freetime",
+        "fi": "Vapaa-aika"
+      },
+      "chapters": [
+        {
+          "title": {
+            "en": "Functionality",
+            "fi": "Toiminnallisuus"
+          },
+          "content": {
+            "en": "The chat application allows for real-time messaging between users.",
+            "fi": "Chat-sovellus mahdollistaa reaaliaikaisen viestinnän käyttäjien välillä."
+          }
+        },
+        {
+          "title": {
+            "en": "Technology",
+            "fi": "Teknologia"
+          },
+          "content": {
+            "en": "Built using the MERN stack, it leverages WebSockets for real-time communication.",
+            "fi": "Rakennettu MERN-pinoa käyttäen, hyödyntää WebSocketeja reaaliaikaiseen viestintään."
+          }
+        }
+      ]
+    },
+    {
+      "title": {
+        "en": "Simple blob-storage",
+        "fi": "Yksinkertainen blob-varasto"
+      },
+      "description": {
+        "en": "Simple blob-storage for my local projects.",
+        "fi": "Yksinkertainen blob-varasto paikallisille projekteilleni."
+      },
+      "images": [
+        "https://placeholdmon.vercel.app/?pikachu"
+      ],
+      "link": "#",
+      "technologies": [
+        "Python",
+        "Flask",
+        "Next.js"
+      ],
+      "date": "2025-03-01",
+      "context": {
+        "en": "Freetime",
+        "fi": "Vapaa-aika"
+      },
+      "chapters": [
+        {
+          "title": {
+            "en": "Purpose",
+            "fi": "Tarkoitus"
+          },
+          "content": {
+            "en": "The blob-storage was created to store and manage large binary files.",
+            "fi": "Blob-varasto luotiin suurten binaaritiedostojen tallentamiseen ja hallintaan."
+          }
+        },
+        {
+          "title": {
+            "en": "Implementation",
+            "fi": "Toteutus"
+          },
+          "content": {
+            "en": "Implemented using Python and Flask for the backend, with Next.js for the frontend.",
+            "fi": "Toteutettu Pythonilla ja Flaskilla taustajärjestelmää varten, ja Next.js:llä käyttöliittymää varten."
+          }
+        }
+      ]
+    },
+    {
+      "title": {
+        "en": "VR Game Development Internship",
+        "fi": "VR-pelikehityksen harjoittelu"
+      },
+      "description": {
+        "en": "Internship focused on developing a VR game for AVH patients.",
+        "fi": "Harjoittelu, jossa kehitettiin VR-peliä AVH-potilaille."
+      },
+      "images": [
+        "https://placeholdmon.vercel.app/?vr-game"
+      ],
+      "link": "#",
+      "technologies": [
+        "C#",
+        "Unity",
+        "XR",
+        "Blender"
+      ],
+      "date": "2025-03-01",
+      "context": {
+        "en": "Internship",
+        "fi": "Harjoittelu"
+      },
+      "chapters": [
+        {
+          "title": {
+            "en": "Objective",
+            "fi": "Tavoite"
+          },
+          "content": {
+            "en": "The internship aimed to enhance the VR game’s features and improve the user experience for AVH patients.",
+            "fi": "Harjoittelun tavoitteena oli parantaa VR-pelin ominaisuuksia ja kehittää käyttökokemusta AVH-potilaille."
+          }
+        },
+        {
+          "title": {
+            "en": "Technologies",
+            "fi": "Teknologiat"
+          },
+          "content": {
+            "en": "Utilized C#, Unity, XR technologies, and Blender to achieve the project goals.",
+            "fi": "Käytössä olivat C#, Unity, XR-teknologiat ja Blender projektin tavoitteiden saavuttamiseksi."
+          }
+        }
+      ]
     }
   ]
 }
