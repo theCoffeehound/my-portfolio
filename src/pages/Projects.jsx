@@ -86,8 +86,8 @@ const Projects = () => {
             <div className="project-details">
               <h3 className="project-title">{project.title[language]}</h3>
               <p className="project-description">{project.description[language]}</p>
-              <p className="project-meta">{texts.projects.technologies}:</p>
-              <div className="tech-stack">
+              {/* <p className="project-meta">{texts.projects.technologies}:</p> */}
+              {/* <div className="tech-stack">
                 {project.technologies.map((tech) => (
                   <span
                     key={tech}
@@ -100,12 +100,12 @@ const Projects = () => {
                     {tech}
                   </span>
                 ))}
-              </div>
+              </div> */}
               {/* <p className="project-meta">{project.context[language]}</p> */}
               {/* <p className="project-meta">Date: {project.date}</p> */}
-              <a href={project.link} target="_blank" rel="noopener noreferrer" className="project-link">
+              <Link to={`/projects/${project.slug}`} rel="noopener noreferrer" className="project-link">
                 {texts.readMore}
-              </a>
+              </Link>
             </div>
           </div>
         ))}

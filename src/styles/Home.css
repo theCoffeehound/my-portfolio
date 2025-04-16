@@ -19,13 +19,36 @@
 
 .home-container {
     display: flex;
-    justify-content: space-between;
     align-items: center;
+    justify-content: center;
     padding: 0 20px;
+    margin: 10rem auto;
 }
+
+.profile {
+    justify-self: right;
+}
+
+.profile-image {
+    height: 20rem;
+    width: auto;
+    border-radius: 50%;
+}
+
+.home-intro-container {
+    margin: 0 0 0 5rem;
+    align-self: center;
+    justify-self: left;
+}
+
 
 .home-title {
     font-size: 2rem;
+}
+
+.home-subtitle {
+    margin: 2rem 0 0.5rem;
+    font-size: 1.7rem;
 }
 
 .home-button {
@@ -45,17 +68,6 @@
 .home-main {
     padding: 50px 20px;
     text-align: center;
-}
-
-.home-subtitle {
-    margin-top: 20px;
-    font-size: 1.5rem;
-    color: #333;
-}
-
-.home-description {
-    font-size: 1rem;
-    color: #666;
 }
 
 .home-footer {
@@ -102,4 +114,42 @@
 .home-footer.dark-mode {
     background-color: #111;
     color: #f0f0f0;
+}
+
+
+/* Mobile Responsive Styles */
+@media (max-width: 768px) {
+    .home-container {
+        flex-direction: column;
+        margin: 5rem auto;
+        padding: 0 10px;
+        text-align: center;
+    }
+
+    .home-intro-container {
+        margin: 2rem 0 0 0;
+        width: 66%;
+        text-align: left;
+    }
+    .home-intro-container .home-intro {
+        margin-bottom: 2rem;
+    }
+
+    .profile-image {
+        height: 15rem;
+    }
+
+    .home-title {
+        font-size: 1.5rem;
+    }
+
+    .home-main {
+        padding: 30px 10px;
+    }
+
+    .home-button {
+        width: 100%;
+        max-width: 300px;
+        margin: 1rem auto;
+    }
 }

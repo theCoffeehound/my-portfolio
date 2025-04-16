@@ -1,10 +1,12 @@
 {
   "projects": [
     {
+      "id": 1,
       "title": {
         "en": "Ravitsemusnavigaattori",
         "fi": "Ravitsemusnavigaattori"
       },
+      "slug": "ravitsemusnavigaattori",
       "description": {
         "en": "A nutrition navigator app.",
         "fi": "Sovellus terveellisiin ruokavalintoihin."
@@ -13,6 +15,8 @@
         "/assets/images/projects/ravitsemusnavigaattori_etusivu.png"
       ],
       "link": "#",
+      "linkToApp": "https://ravitsemusnavigaattori.fi",
+      "linkToGithub": "https://github.com/username/ravitsemusnavigaattori",
       "technologies": [
         "MongoDB",
         "Express",
@@ -50,10 +54,12 @@
       ]
     },
     {
+      "id": 2,
       "title": {
         "en": "Summer-course MERN-2022",
         "fi": "Kesäkurssi MERN-2022"
       },
+      "slug": "summer-course-mern-2022",
       "description": {
         "en": "First working MERN-app from a summer course.",
         "fi": "Ensimmäinen toimiva MERN-sovellus kesäkurssilta."
@@ -62,6 +68,8 @@
         "/assets/images/projects/mern2022_etusivu.png"
       ],
       "link": "#",
+      "linkToApp": "https://example.com/mern2022",
+      "linkToGithub": "https://github.com/username/mern2022",
       "technologies": [
         "MongoDB",
         "Express",
@@ -99,10 +107,12 @@
       ]
     },
     {
+      "id": 3,
       "title": {
         "en": "Browser start page",
         "fi": "Selaimen aloitussivu"
       },
+      "slug": "browser-start-page",
       "description": {
         "en": "A simple start page for my browser.",
         "fi": "Yksinkertainen aloitussivu selaimelleni."
@@ -111,6 +121,8 @@
         "https://placeholdmon.vercel.app/?pikachu"
       ],
       "link": "#",
+      "linkToApp": "https://example.com/browser-start-page",
+      "linkToGithub": "https://github.com/username/browser-start-page",
       "technologies": [
         "HTML",
         "CSS",
@@ -145,18 +157,22 @@
       ]
     },
     {
+      "id": 4,
       "title": {
         "en": "Portfolio",
         "fi": "Portfolio"
       },
+      "slug": "portfolio",
       "description": {
-        "en": "My portfolio.",
-        "fi": "Oma portfolio."
+        "en": "This website.",
+        "fi": "Tämä verkkosivu :3"
       },
       "images": [
-        "https://placeholdmon.vercel.app/?pikachu"
+        "https://placeholdmon.vercel.app/?portfolio"
       ],
       "link": "#",
+      "linkToApp": "https://example.com/portfolio",
+      "linkToGithub": "https://github.com/username/portfolio",
       "technologies": [
         "React",
         "JavaScript",
@@ -191,18 +207,23 @@
       ]
     },
     {
+      "id": 5,
       "title": {
         "en": "Previous portfolio",
         "fi": "Edellinen portfolio"
       },
+      "slug": "previous-portfolio",
       "description": {
         "en": "My previous portfolio.",
         "fi": "Perinteinen staattinen HTML, CSS ja JavaScript -portfolio. Hostattu GitHub Pagesilla."
       },
       "images": [
-        "https://placeholdmon.vercel.app/?pikachu"
+        "/assets/images/projects/entinen_portfolio_etusivu.png",
+        "/assets/images/projects/entinen_portfolio_projektit.png"
       ],
       "link": "#",
+      "linkToApp": "https://iirovalimaa.github.io/",
+      "linkToGithub": "https://github.com/username/previous-portfolio",
       "technologies": [
         "HTML",
         "CSS",
@@ -237,18 +258,22 @@
       ]
     },
     {
+      "id": 6,
       "title": {
         "en": "Simple chat",
         "fi": "Yksinkertainen chat"
       },
+      "slug": "simple-chat",
       "description": {
-        "en": "Simple chat for my local projects.",
-        "fi": "Yksinkertainen chat paikallisille projekteilleni."
+        "en": "Simple chat app done using WebSockets.",
+        "fi": "Yksinkertainen chat sovellus tehty käyttäen WebSocketteja."
       },
       "images": [
-        "https://placeholdmon.vercel.app/?pikachu"
+        "https://placeholdmon.vercel.app/?yksinkertainen-chat"
       ],
       "link": "#",
+      "linkToApp": "https://example.com/simple-chat",
+      "linkToGithub": "https://github.com/username/simple-chat",
       "technologies": [
         "MongoDB",
         "Express",
@@ -285,18 +310,22 @@
       ]
     },
     {
+      "id": 7,
       "title": {
         "en": "Simple blob-storage",
         "fi": "Yksinkertainen blob-varasto"
       },
+      "slug": "simple-blob-storage",
       "description": {
         "en": "Simple blob-storage for my local projects.",
         "fi": "Yksinkertainen blob-varasto paikallisille projekteilleni."
       },
       "images": [
-        "https://placeholdmon.vercel.app/?pikachu"
+        "https://placeholdmon.vercel.app/?blob-storage"
       ],
       "link": "#",
+      "linkToApp": "https://example.com/simple-blob-storage",
+      "linkToGithub": "https://github.com/username/simple-blob-storage",
       "technologies": [
         "Python",
         "Flask",
@@ -331,10 +360,12 @@
       ]
     },
     {
+      "id": 8,
       "title": {
         "en": "VR Game Development Internship",
         "fi": "VR-pelikehityksen harjoittelu"
       },
+      "slug": "vr-game-development-internship",
       "description": {
         "en": "Internship focused on developing a VR game for AVH patients.",
         "fi": "Harjoittelu, jossa kehitettiin VR-peliä AVH-potilaille."
@@ -343,6 +374,8 @@
         "https://placeholdmon.vercel.app/?vr-game"
       ],
       "link": "#",
+      "linkToApp": "https://example.com/vr-game",
+      "linkToGithub": "https://github.com/username/vr-game",
       "technologies": [
         "C#",
         "Unity",

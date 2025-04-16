@@ -1,29 +1,24 @@
 import React from 'react';
-import { useDarkMode } from '../context/DarkModeContext';  // Import the useDarkMode hook
-import '../styles/DarkModeToggle.css';  // Your custom CSS file
-import moon from '../assets/moon.svg'; // Path to moon icon
-import sun from '../assets/sun.svg';   // Path to sun icon
+import { useDarkMode } from '../context/DarkModeContext';
+import '../styles/DarkModeToggle.css';
+import moon from '../assets/moon.svg';
+import sun from '../assets/sun.svg';
 
 const DarkModeToggle = () => {
-  const { darkMode, setDarkMode } = useDarkMode();  // Get darkMode state and setDarkMode function
-  
+  const { darkMode, setDarkMode } = useDarkMode();
+
   const handleToggle = () => {
-    setDarkMode(!darkMode);  // Toggle between dark and light mode
+    setDarkMode(!darkMode);
   };
 
   return (
-    <label className="switch">
-      <input 
-        type="checkbox" 
-        checked={darkMode}  // If darkMode is true, checkbox will be checked
-        onChange={handleToggle}  // Toggle dark mode when checkbox changes
+    <button className="dark-mode-button" onClick={handleToggle}>
+      <img
+        src={darkMode ? sun : moon}
+        alt={darkMode ? 'Sun (Light Mode)' : 'Moon (Dark Mode)'}
+        className="dark-mode-icon"
       />
-      <span className="slider round">
-        {/* Display moon and sun icons */}
-        <img src={moon} alt="Moon" className={`icon-moon ${darkMode ? 'active' : ''}`} />
-        <img src={sun} alt="Sun" className={`icon-sun ${!darkMode ? 'active' : ''}`} />
-      </span>
-    </label>
+    </button>
   );
 };
 

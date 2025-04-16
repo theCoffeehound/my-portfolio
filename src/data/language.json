@@ -7,8 +7,73 @@
       "contact": "Contact"
     },
     "home": {
-      "welcome": "Hi, I'm ",
-      "description": "I am young coder."
+      "welcome": "Hi, I'm",
+      "description": "Young software developer, with focus on full stack development.",
+      "description2": "I have experience in various programming languages and frameworks, and I am always eager to learn new technologies. I enjoy working on challenging projects that push me to think outside the box and find creative solutions. In my free time, I like to do side projects, play videogames.",
+      "about": {
+        "title": "About me",
+        "description": "I like videogames, coding, music and jogging. At summer I like to hike at Lapland and enjoy the nature."  
+      }
+    },
+    "about": {
+      "title": "About Me",
+      "description": "Coffee, code, games, and music.",
+      "techTitle": "Technologies I Use",
+      "techList": [
+        "HTML/CSS",
+        "JavaScript",
+        "Next.js",
+        "React",
+        "Node.js",
+        "Express",
+        "MongoDB",
+        "SQL",
+        "C#",
+        "Java",
+        "Python",
+        "PHP",
+        "TypeScript",
+        "Git",
+        "Docker"
+      ],
+      "cloudServices": "Cloud Services",
+      "cloudServicesList": [
+        "Azure",
+        "AWS",
+        "Cloudflare"
+      ],
+      "ai": "AI Tools",
+      "noteAboutAI": "My stance on AI is open but skeptical. I recognize both its potential and its challenges.",
+      "languagesTitle": "Language Skills",
+      "languages": [
+        "Finnish (Native)",
+        "English (Fluent)",
+        "Swedish (Basic)"
+      ],
+      "osTitle": "Operating Systems",
+      "os": [
+        "Windows",
+        "Linux",
+        "macOS"
+      ],
+      "hobbiesTitle": "Hobbies",
+      "hobbies": [
+        "Gaming",
+        "Coding Projects",
+        "Music",
+        "Sports"
+      ],
+      "educationTitle": "Education",
+      "education": [
+        "Bachelor of Engineering in Information Technology – focused on software development"
+      ]
+    },
+    "contact": {
+      "title": "Get in Touch",
+      "subtitle": "You can find me here:",
+      "mainGitHub": "Main GitHub",
+      "secondGitHub": "Second GitHub",
+      "linkedin": "LinkedIn"
     },
     "projects": {
       "title": "Projects",
@@ -31,8 +96,74 @@
       "contact": "Yhteys"
     },
     "home": {
-      "welcome": "Hei, olen ",
-      "description": "Olen nuori koodari."
+      "welcome": "Hei, olen",
+      "description": "Full stack kehittämiseen erikoistunut nuori ohjelmistokehittäjä.",
+      "about": {
+        "title": "Tietoa minusta",
+        "description": "Pidän videopeleistä, koodaamisesta, musiikista ja urheilusta. Kesäsin tykkään vaeltaa Lapissa ja nauttia luonnosta."  
+      }
+    },
+    "about": {
+      "title": "Tietoja minusta",
+      "description": "Kahvia, koodia, pelejä ja musiikkia.",
+      "techTitle": "Käyttämäni tekniikat",
+      "techList": [
+        "HTML5",
+        "CSS",
+        "JavaScript",
+        "Next.js",
+        "React",
+        "Node.js",
+        "Express",
+        "MongoDB",
+        "MySQL",
+        "PostgreSQL",
+        "C#",
+        "Java",
+        "Python",
+        "PHP",
+        "TypeScript",
+        "Git",
+        "Docker"
+      ],
+      "cloudServices": "Pilvipalvelut",
+      "cloudServicesList": [
+        "Azure",
+        "AWS",
+        "Cloudflare"
+      ],
+      "ai": "AI-työkalut",
+      "noteAboutAI": "Suhtautuminen tekoälyihin on avoin, mutta skeptinen. Tiedostan niiden mahdollisuudet ja haasteet.",
+      "languagesTitle": "Kielitaito",
+      "languages": [
+        "Suomi (Äidinkieli)",
+        "Englanti (Sujuva)",
+        "Ruotsi (Perustaso)"
+      ],
+      "osTitle": "Käyttöjärjestelmät",
+      "os": [
+        "Windows",
+        "Linux",
+        "macOS"
+      ],
+      "hobbiesTitle": "Harrastukset",
+      "hobbies": [
+        "Pelaaminen",
+        "Koodausprojektit",
+        "Musiikki",
+        "Urheilu"
+      ],
+      "educationTitle": "Koulutus",
+      "education": [
+        "Tietotekniikan insinööri – painopiste ohjelmistokehityksessä"
+      ]
+    },
+    "contact": {
+      "title": "Ota yhteyttä",
+      "subtitle": "Löydät minut täältä:",
+      "mainGitHub": "Pää-GitHub",
+      "secondGitHub": "Toinen GitHub",
+      "linkedin": "LinkedIn"
     },
     "projects": {
       "title": "Projektit",

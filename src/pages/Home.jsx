@@ -2,6 +2,7 @@ import React from "react";
 import { useLanguage } from "../context/LanguageContext";
 import languageData from "../data/language.json";
 import '../styles/Home.css';
+import profilePic from '../assets/Iiro_Valimaa_v2-768x768.jpg'; // Make sure to replace with your actual image path
 
 const Home = () => {
   const { language } = useLanguage();
@@ -9,26 +10,21 @@ const Home = () => {
 
 
   return (
-    <div>
-      <section class="home-intro">
-        <h1 class="home-subtitle">{texts.home.welcome} {texts.brand}</h1>
-        <p class="home-description">{texts.home.description}</p>
-
-        <p class="home-description">Web Developer | Designer | Creative Thinker</p>
-        <p class="home-description">Let's build something amazing together!</p>
-      </section>
-      <section class="home-about">
-        <h2 class="home-subtitle">About Me</h2>
-        <p class="home-description">I am a passionate developer with expertise in front-end and back-end technologies. I love creating user-centric, responsive websites.</p>
-      </section>
-      <h2>{texts.welcome}</h2>
-      <p>{texts.explore}</p>
-      <div className="home-aboutme">
-        <div className="profile">
-          <img className="profile-image" src="your-image-url.jpg" alt={texts.name} />
-          <div className="intro-text">
-          </div>
-        </div>
+    <div className="home-container">
+      <div className="profile">
+        <img className="profile-image" src={profilePic} alt={texts.name} />
+      </div>
+      <div className="home-intro-container">
+        <section class="home-intro">
+          <h1 class="home-subtitle">{texts.home.welcome} {texts.brand}</h1>
+          <p class="home-description">{texts.home.description}</p>
+        </section>
+        <section class="home-about">
+          <h2 class="home-subtitle">{texts.home.about.title}</h2>
+          <p class="home-description">{texts.home.about.description}</p>
+        </section>
+        <h2>{texts.welcome}</h2>
+        <p>{texts.explore}</p>
       </div>
     </div>
   );

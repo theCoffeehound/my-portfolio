@@ -1,21 +1,128 @@
 .navbar {
-  display: grid;
-  grid-template-columns: 3fr 9fr 0.5fr;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   padding: 1rem;
+  flex-wrap: wrap;
 }
 
-.navbar-brand, 
-.navbar-links,
-.navbar-actions{
+.navbar-brand h1 {
+  margin: 0;
+  text-decoration: none;
+}
+
+.navbar-logo {
+  text-decoration: none;
+}
+
+.navbar-links {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  gap: 1rem;
+}
+
+.navbar-links {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  transition: all 0.3s ease;
+}
+
+.navbar-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.navbar-actions {
   display: flex;
   align-items: center;
 }
 
-.navbar-links{
-  flex-direction: row;
-  justify-content: flex-end;
+.menu-toggle {
+  display: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+  background: none;
+  border: none;
 }
 
-.navbar-links .navbar-link {
-  margin-right: 1rem;
+.divider {
+  height: 24px;
+  width: 1px;
+  background-color: currentColor;
+  margin: 0 12px;
+  align-self: center;
+}
+
+@media (max-width: 768px) {
+  .menu-toggle {
+    display: block;
+  }
+
+  .navbar-links {
+    width: 100%;
+    flex-direction: column;
+    align-items: flex-start;
+    display: none;
+    margin-top: 1rem;
+  }
+
+  .navbar-links.active {
+    display: flex;
+  }
+
+  .navbar-actions {
+    display: none;
+  }
+
+  .navbar-links {
+    width: 100%;
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .navbar-actions {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+    width: 100%;
+    margin-top: 1rem;
+  }
+
+  .navbar-actions {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-style: solid none solid;
+    border-width: 1px;
+    padding: 1rem 0;
+  }
+
+  .divider {
+    display: none;
+  }
+}
+
+.menu-toggle {
+  font-size: 3rem;
+}
+
+.navbar-actions {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+body.dark-mode .navbar {
+  background-color: #222;
+  color: #f0f0f0;
+}
+
+body.dark-mode .navbar-link {
+  color: #f0f0f0;
+}
+
+body.dark-mode .menu-toggle {
+  color: #f0f0f0;
 }

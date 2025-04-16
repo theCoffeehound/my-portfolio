@@ -4,11 +4,13 @@ import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import Home from './pages/Home';
 import About from './pages/About';
+import Contact from './pages/Contact'; 
 import Technologies from './pages/Technologies';
 import Projects from './pages/Projects';
 import ProjectDetails from './pages/ProjectDetails';
 import { useDarkMode } from './context/DarkModeContext'; // Import the DarkMode context
 import './styles/App.css';
+import ScrollToTop from './components/ScrollToTop';
 
 function App() {
   const { darkMode, setDarkMode } = useDarkMode(); // Get dark mode from context
@@ -28,14 +30,16 @@ function App() {
 
         <div className='wrapper'>
           <Router>
+            <ScrollToTop />
             <Navbar />
             <main className='content'>
               <Routes>
                 <Route path="/" element={<Home />} />
                 <Route path="/about" element={<About />} />
                 <Route path="/technologies" element={<Technologies />} />
+                <Route path="/contact" element={<Contact />} />
                 <Route path="/projects" element={<Projects />} />
-                <Route path="/projects/:id" element={<ProjectDetails />} />
+                <Route path="/projects/:slug" element={<ProjectDetails />} />
               </Routes>
             </main>
             <Footer />

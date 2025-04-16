@@ -5,3 +5,25 @@ footer {
   text-align: center;
   padding: 10px;
 }
+
+footer a {
+  text-decoration: none;
+}
+
+body.dark-mode footer a {
+  text-decoration: none;
+  color: #fff;
+}
+
+body.light-mode footer a {
+  text-decoration: none;
+  color: #333;
+}
+
+footer .footer-links{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin: 10px 0;
+}
+
