@@ -2,7 +2,7 @@ import React from "react";
 import { useLanguage } from "../context/LanguageContext";
 import languageData from "../data/language.json";
 import '../styles/Home.css';
-import profilePic from '../assets/Iiro_Valimaa_v2-768x768.jpg'; // Make sure to replace with your actual image path
+import profilePic from '../assets/profilePicture.jpg'; // Make sure to replace with your actual image path
 
 const Home = () => {
   const { language } = useLanguage();

@@ -8,7 +8,7 @@
     },
     "home": {
       "welcome": "Hi, I'm",
-      "description": "Young software developer, with focus on full stack development.",
+      "description": "Software developer, with focus on full stack development.",
       "description2": "I have experience in various programming languages and frameworks, and I am always eager to learn new technologies. I enjoy working on challenging projects that push me to think outside the box and find creative solutions. In my free time, I like to do side projects, play videogames.",
       "about": {
         "title": "About me",
@@ -97,7 +97,7 @@
     },
     "home": {
       "welcome": "Hei, olen",
-      "description": "Full stack kehittämiseen erikoistunut nuori ohjelmistokehittäjä.",
+      "description": "Full stack kehittämiseen erikoistunut ohjelmistokehittäjä.",
       "about": {
         "title": "Tietoa minusta",
         "description": "Pidän videopeleistä, koodaamisesta, musiikista ja urheilusta. Kesäsin tykkään vaeltaa Lapissa ja nauttia luonnosta."  
