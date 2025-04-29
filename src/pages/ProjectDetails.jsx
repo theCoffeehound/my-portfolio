@@ -117,27 +117,36 @@ const ProjectDetails = () => {
 
       {/* Links */}
       <div className="project-links">
-        {project.linkToApp && (
-          <a
-            href={project.linkToApp}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="project-link"
-          >
-            {language === 'en' ? 'Try the app' : 'Kokeile sovellusta'}
-          </a>
-        )}
-        {project.linkToGithub && (
-          <a
-            href={project.linkToGithub}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="project-link"
-          >
-            {language === 'en' ? 'View on GitHub' : 'Katso GitHubissa'}
-          </a>
-        )}
+        {project.linkToApp &&
+          !project.linkToApp.includes("example.com") && (
+            <a
+              href={project.linkToApp}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="project-link app-link"
+            >
+              {language === 'en' ? 'Try the app ' : 'Kokeile sovellusta'}
+              <svg xmlns="http://www.w3.org/2000/svg" height="1rem" viewBox="0 -960 960 960" width="1rem" fill="#f2f4f6">
+                <path d="M200-120q-33 0-56.5-23.5T120-200v-560q0-33 23.5-56.5T200-840h280v80H200v560h560v-280h80v280q0 33-23.5 56.5T760-120H200Zm188-212-56-56 372-372H560v-80h280v280h-80v-144L388-332Z" />
+              </svg>
+            </a>
+          )}
+        {project.linkToGithub &&
+          !project.linkToGithub.includes("username") && (
+            <a
+              href={project.linkToGithub}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="project-link github-link"
+            >
+              {language === 'en' ? 'View on GitHub' : 'Katso GitHubissa'}
+              <svg xmlns="http://www.w3.org/2000/svg" height="1rem" viewBox="0 -960 960 960" width="1rem" fill="#f2f4f6">
+                <path d="M200-120q-33 0-56.5-23.5T120-200v-560q0-33 23.5-56.5T200-840h280v80H200v560h560v-280h80v280q0 33-23.5 56.5T760-120H200Zm188-212-56-56 372-372H560v-80h280v280h-80v-144L388-332Z" />
+              </svg>
+            </a>
+          )}
       </div>
+
     </div>
   );
 };

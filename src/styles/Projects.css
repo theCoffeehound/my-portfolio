@@ -83,7 +83,7 @@ body.light-mode .project-meta {
     margin-bottom: 0.5rem;
 }
 
-body.light-mode .project-link {
+/* body.light-mode .project-link {
     display: block;
     margin-top: 1rem;
     padding: 0.75rem;
@@ -93,11 +93,11 @@ body.light-mode .project-link {
     text-decoration: none;
     border-radius: 6px;
     transition: background 0.3s ease-in-out;
-}
+} */
 
-body.light-mode .project-link:hover {
+/* body.light-mode .project-link:hover {
     background-color: #0056b3;
-}
+} */
 
 /* Dark Mode Styles */
 body.dark-mode .projects-container {
@@ -187,7 +187,7 @@ body.dark-mode .project-meta {
     margin-bottom: 0.5rem;
 }
 
-body.dark-mode .project-link {
+/* body.dark-mode .project-link {
     display: block;
     margin-top: 1rem;
     padding: 0.75rem;
@@ -197,11 +197,11 @@ body.dark-mode .project-link {
     text-decoration: none;
     border-radius: 6px;
     transition: background 0.3s ease-in-out;
-}
+} */
 
-body.dark-mode .project-link:hover {
+/* body.dark-mode .project-link:hover {
     background-color: #0056b3;
-}
+} */
 
 .project-image {
     width: 100%;
