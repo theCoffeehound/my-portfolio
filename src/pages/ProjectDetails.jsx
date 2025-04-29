@@ -3,6 +3,7 @@ import { Link, useParams } from 'react-router-dom';
 import { useLanguage } from '../context/LanguageContext';
 import { projects } from '../data/projects';
 import '../styles/ProjectDetails.css';
+import ProjectImages from '../components/ProjectImage';
 
 const techColors = {
   React: { bg: "#61DAFB", text: "#000000" },
@@ -68,12 +69,7 @@ const ProjectDetails = () => {
       <h1>{title}</h1>
 
       <div className="project-image-container">
-        <img
-          src={projectImage}
-          alt={title || 'Project Thumbnail'}
-          className="project-image"
-          style={{ width: '100%', height: 'auto', aspectRatio: '16/9' }}
-        />
+        <ProjectImages project={project} />
       </div>
 
       <p>{description || 'No description available for this project.'}</p>
