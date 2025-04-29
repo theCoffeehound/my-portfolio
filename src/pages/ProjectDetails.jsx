@@ -33,7 +33,7 @@ const techColors = {
   "Next.js": { bg: "#000000", text: "#FFFFFF" },
   Electron: { bg: "#47848F", text: "#FFFFFF" },
   Java: { bg: "#007396", text: "#FFFFFF" },
-  "C#": { bg: "#239120", text: "#FFFFFF" },
+  "C#": { bg: "#68217A", text: "#FFFFFF" },
   Unity: { bg: "#000000", text: "#FFFFFF" },
   Blender: { bg: "#F5792A", text: "#FFFFFF" },
   Figma: { bg: "#F24E1E", text: "#FFFFFF" },

@@ -25,7 +25,7 @@
         "CSS",
         "JavaScript"
       ],
-      "date": "2024-01-01",
+      "date": "2025-05-01",
       "context": {
         "en": "Job",
         "fi": "Työ"
@@ -109,24 +109,26 @@
     {
       "id": 3,
       "title": {
-        "en": "Browser start page",
-        "fi": "Selaimen aloitussivu"
+        "en": "My old browser start page",
+        "fi": "Vanha selaimen aloitussivu"
       },
       "slug": "browser-start-page",
       "description": {
-        "en": "A simple start page for my browser.",
-        "fi": "Yksinkertainen aloitussivu selaimelleni."
+        "fi": "Yksinkertainen aloitussivu selaimeeni, josta pääsi nopeasti suosikkisivustoilleni ja näki päivän suurimmat uutiset.",
+        "en": "A simple start page for my browser, where I could quickly access my favorite sites and see the biggest news of the day."
       },
       "images": [
-        "https://placeholdmon.vercel.app/?pikachu"
+        "/assets/images/projects/frontpage_etusivu.png"
       ],
       "link": "#",
-      "linkToApp": "https://example.com/browser-start-page",
+      "linkToApp": null,
       "linkToGithub": "https://github.com/username/browser-start-page",
       "technologies": [
-        "HTML",
-        "CSS",
-        "JavaScript"
+        "React",
+        "JavaScript",
+        "Node.js",
+        "Express",
+        "SQL"
       ],
       "date": "2022-12-10",
       "context": {
@@ -140,8 +142,8 @@
             "fi": "Konsepti"
           },
           "content": {
-            "en": "The idea was to create a personalized start page for my browser with quick access to my favorite sites.",
-            "fi": "Ideana oli luoda personoitu aloitussivu selaimelleni, josta pääsee nopeasti suosikkisivustoilleni."
+            "en": "The idea was to create a personalized start page for my browser with quick access to my favorite sites and to see the biggest news of the day. As my studies progressed, I added various features to the page, such as a TODO list and a simple project management tool.",
+            "fi": "Ideana oli luoda personoitu aloitussivu selaimelleni, josta pääsee nopeasti suosikkisivustoilleni ja nähdä päivän suurimmat uutiset. Opiskeluiden edetessä lisäsin sivulle eri ominaisuuksia, kuten TODO-listan ja yksinkertaisen projektinhallinta työkalun."
           }
         },
         {
@@ -150,8 +152,8 @@
             "fi": "Toteutus"
           },
           "content": {
-            "en": "The start page was built using basic web technologies like HTML, CSS, and JavaScript.",
-            "fi": "Aloitussivu rakennettiin käyttämällä perusverkkoteknologioita, kuten HTML, CSS ja JavaScript."
+            "fi": "Aloitussivu rakennettiin Reactillä, Node.js:llä ja tiettokantana oli MySQL. Sivu haki YLEn rajapinnasta pari suurinta uutista ja näytti ne käyttäjälle.",
+            "en": "The start page was built using React, Node.js, and MySQL as the database. The page fetched a couple of the biggest news from YLE's API and displayed them to the user."
           }
         }
       ]
@@ -221,11 +223,11 @@
       },
       "images": [
         "/assets/images/projects/entinen_portfolio_etusivu.png",
-        "/assets/images/projects/entinen_portfolio_projektit.png"
+        "/assets/images/projects/entinen_portfolio_projektitsivu.png"
       ],
       "link": "#",
       "linkToApp": "https://iirovalimaa.github.io/",
-      "linkToGithub": "https://github.com/username/previous-portfolio",
+      "linkToGithub": "https://github.com/iirovalimaa/iirovalimaa.github.io",
       "technologies": [
         "HTML",
         "CSS",
@@ -267,23 +269,27 @@
       },
       "slug": "simple-chat",
       "description": {
-        "en": "Simple chat app done using WebSockets.",
-        "fi": "Yksinkertainen chat sovellus tehty käyttäen WebSocketteja."
+        "en": "A simple chat application. Just for fun.",
+        "fi": "Tein yksinkertaisen chat-sovelluksen, koska teki mieli ja halusin kokeilla miten se onnistuisi. Rekisteröityminen, kirjautuminen, kavereiden lisäys (jos tietää heidän usernamen) ja realiaikainen viestien lähettely kaikki toimivat."
       },
       "images": [
-        "https://placeholdmon.vercel.app/?yksinkertainen-chat"
+        "/assets/images/projects/simple_chat_message.png",
+        "/assets/images/projects/simple_chat_frontpage.png",
+        "/assets/images/projects/simple_chat_register.png",
+        "/assets/images/projects/simple_chat_login.png"
       ],
       "link": "#",
       "linkToApp": "https://example.com/simple-chat",
-      "linkToGithub": "https://github.com/username/simple-chat",
+      "linkToGithub": "https://github.com/theCoffeehound/nova-chat",
       "technologies": [
         "MongoDB",
         "Express",
         "React",
         "Node.js",
-        "JavaScript"
+        "JavaScript",
+        "Socket.io"
       ],
-      "date": "2025-03-01",
+      "date": "2024-07-07",
       "context": {
         "en": "Freetime",
         "fi": "Vapaa-aika"
@@ -370,7 +376,7 @@
       "slug": "vr-game-development-internship",
       "description": {
         "en": "Internship focused on developing a VR game for AVH patients.",
-        "fi": "Harjoittelu, jossa kehitettiin VR-peliä AVH-potilaille."
+        "fi": "Korkeakoulu-harjoittelun projekti, jossa kehitettiin VR-peliä AVH-potilaille."
       },
       "images": [
         "https://placeholdmon.vercel.app/?vr-game"
@@ -408,6 +414,54 @@
           "content": {
             "en": "Utilized C#, Unity, XR technologies, and Blender to achieve the project goals.",
             "fi": "Käytössä olivat C#, Unity, XR-teknologiat ja Blender projektin tavoitteiden saavuttamiseksi."
+          }
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "title": {
+        "en": "Personel Data Register",
+        "fi": "Henkilötietorekisteri"
+      },
+      "slug": "personel-data-register",
+      "description": {
+        "en": "Internship focused on developing a VR game for AVH patients.",
+        "fi": "Harjoittelu, jossa kehitettiin VR-peliä AVH-potilaille."
+      },
+      "images": [
+        "/assets/images/projects/henkilötietorekisteri.png"
+      ],
+      "link": "#",
+      "linkToApp": "https://example.com/henkilotietorekisteri",
+      "linkToGithub": "https://github.com/theCoffeehound/henkilotietorekisteri",
+      "technologies": [
+        "C#"
+      ],
+      "date": "2020-09-01",
+      "context": {
+        "en": "School project",
+        "fi": "Kouluprojekti"
+      },
+      "chapters": [
+        {
+          "title": {
+            "en": "Objective",
+            "fi": "Tavoite"
+          },
+          "content": {
+            "en": "Show C# skill and to create a simple application that can be used to store personal data.",
+            "fi": "Tehdä henkilötietorekisteri, käyttämälä C#."
+          }
+        },
+        {
+          "title": {
+            "en": "Technologies",
+            "fi": "Teknologiat"
+          },
+          "content": {
+            "en": "Utilized C#, Unity.",
+            "fi": "Käytössä oli C#."
           }
         }
       ]
