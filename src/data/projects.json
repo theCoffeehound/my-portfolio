@@ -165,10 +165,12 @@
       "slug": "portfolio",
       "description": {
         "en": "This website.",
-        "fi": "Tämä verkkosivu :3"
+        "fi": "Tämä verkkosivu"
       },
       "images": [
-        "https://placeholdmon.vercel.app/?portfolio"
+        "/assets/images/projects/portfolio_etusivu_light.png",
+        "/assets/images/projects/portfolio_etusivu_dark.png",
+        "/assets/images/projects/portfolio_etusivu_en.png"
       ],
       "link": "#",
       "linkToApp": "https://example.com/portfolio",
