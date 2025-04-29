@@ -68,24 +68,27 @@ const ProjectDetails = () => {
       </div> */}
       <h1>{title}</h1>
 
-      <div className="project-image-container">
+      <div className="project-images-container">
         <ProjectImages project={project} />
       </div>
 
-      <p>{description || 'No description available for this project.'}</p>
+      <div className="project-description">
+        <h3>{language === 'en' ? 'Description: ' : 'Kuvaus: '}</h3>
+        <p>{description || 'No description available for this project.'}</p>
+      </div>
 
       {/* Context */}
       <div className="project-context">
-        <p>
+        <h3>
           <strong>
             {language === 'en' ? 'When / Where done: ' : 'Milloin / Missä tehty: '}
           </strong>
-          {context}
-        </p>
+        </h3>
+        <p>{context || 'No context available for this project.'}</p>
       </div>
 
       <div className="project-technologies">
-        <h3>Technologies Used</h3>
+        <h3>{language === 'en' ? 'Technologies Used: ' : 'Käytetyt teknologiat: '}</h3>
         <div className="tech-stack">
           {project.technologies.map((tech) => (
             <span
@@ -102,6 +105,16 @@ const ProjectDetails = () => {
         </div>
       </div>
 
+      {/* Chapters */}
+      <div className="project-chapters">
+        {project.chapters.map((chapter, index) => (
+          <div key={index} className="chapter">
+            <h3>{chapter.title[language] || chapter.title.en}</h3>
+            <p>{chapter.content[language] || chapter.content.en}</p>
+          </div>
+        ))}
+      </div>
+
       {/* Links */}
       <div className="project-links">
         {project.linkToApp && (
@@ -111,7 +124,7 @@ const ProjectDetails = () => {
             rel="noopener noreferrer"
             className="project-link"
           >
-            View App
+            {language === 'en' ? 'Try the app' : 'Kokeile sovellusta'}
           </a>
         )}
         {project.linkToGithub && (
@@ -121,19 +134,9 @@ const ProjectDetails = () => {
             rel="noopener noreferrer"
             className="project-link"
           >
-            View on GitHub
+            {language === 'en' ? 'View on GitHub' : 'Katso GitHubissa'}
           </a>
         )}
-      </div>
-
-      {/* Chapters */}
-      <div className="project-chapters">
-        {project.chapters.map((chapter, index) => (
-          <div key={index} className="chapter">
-            <h4>{chapter.title[language] || chapter.title.en}</h4>
-            <p>{chapter.content[language] || chapter.content.en}</p>
-          </div>
-        ))}
       </div>
     </div>
   );

@@ -66,7 +66,7 @@ body.light-mode .project-title {
     margin-bottom: 0.5rem;
 }
 
-body.light-mode .project-description {
+body.light-mode .project-details .project-description {
     color: #666;
     /* Light mode description color */
     overflow: hidden;
@@ -170,7 +170,7 @@ body.dark-mode .project-title {
     margin-bottom: 0.5rem;
 }
 
-body.dark-mode .project-description {
+body.dark-mode .project-details .project-description {
     color: #ddd;
     /* Dark mode description color */
     overflow: hidden;
@@ -201,23 +201,6 @@ body.dark-mode .project-link {
 
 body.dark-mode .project-link:hover {
     background-color: #0056b3;
-}
-
-.tech-stack {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-start;
-    align-items: center;
-    gap: 0.4rem;
-    margin-top: 1rem;
-}
-
-.tech-stack span {
-    padding: 0.3rem;
-    background-color: #007bff;
-    color: #fff;
-    font-size: 0.75rem;
-    border-radius: 6px;
 }
 
 .project-image {

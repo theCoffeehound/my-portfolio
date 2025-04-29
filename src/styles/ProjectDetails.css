@@ -1,9 +1,25 @@
 .a-project-details {
     max-width: 1200px;
     margin: 20px auto;
-    padding: 20px;
     border-radius: 8px;
 }
+
+.a-project-details p {
+    color: #cccccc;
+}
+
+/* Light Mode Styles */
+body.light-mode .a-project-details p {
+    color: #333333;
+    /* Darker text for visibility on light background */
+}
+
+/* Dark Mode Styles */
+body.dark-mode .a-project-details p {
+    color: #cccccc;
+    /* Lighter text for visibility on dark background */
+}
+
 
 .back-button {
     margin-bottom: 1rem;
@@ -28,29 +44,67 @@
     margin-bottom: 1rem;
 }
 
-
-.a-project-details .project-image-container {
-    text-align: center;
-    padding: 20px;
+.a-project-details h3{
+    font-weight:900;
 }
 
-.a-project-details .project-image {
-    max-width: 100%;
-    height: auto;
-    border-radius: 8px;
-    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+.a-project-details>* {
+    margin-left: 20px;
+}
+
+.a-project-details .project-images-container {
+    margin: 0 0 2rem 0;
 }
 
 .a-project-details p {
     font-size: 1.1rem;
     line-height: 1.6;
     margin-bottom: 20px;
-    text-align: justify;
+    text-align: left;
 }
 
+
+.a-project-details .project-context{
+    display: flex;
+    flex-direction: row;
+}
+.a-project-details .project-context p{
+    margin-left: 1rem;
+}
+
+.a-project-details .project-technologies {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.tech-stack {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem;
+    margin-left: 1rem;
+}
+
+.tech-stack span {
+    padding: 0.3rem;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 0.75rem;
+    border-radius: 6px;
+}
+
+.a-project-details .project-links{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    justify-content: space-around;
+}
 .a-project-details .project-link {
     display: inline-block;
     padding: 10px 20px;
+    max-width: 400px;
+    width: 100%;
     font-size: 1rem;
     text-decoration: none;
     border-radius: 5px;
@@ -81,4 +135,50 @@
 .a-project-details .a-project-details .fallback-text {
     font-style: italic;
     color: #888;
+}
+
+.a-project-details .project-chapters {
+    margin-top: 2rem;
+
+}
+
+@media (max-width: 768px) {
+    .a-project-details>* {
+        margin-left: 10px;
+    }
+
+    .a-project-details .project-context{
+        display: flex;
+        flex-direction: column;
+    }
+    .a-project-details .project-context p{
+        margin-left: 0;
+    }
+    .a-project-details .project-technologies {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .a-project-details .tech-stack {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.4rem;
+        margin-top: 0.5rem;
+        margin-left: 0rem;
+    }
+
+    .a-project-details .tech-stack span {
+        padding: 0.3rem;
+        background-color: #007bff;
+        color: #fff;
+        font-size: 0.75rem;
+        border-radius: 6px;
+    }
+    .a-project-details .project-links{
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        justify-content: center;
+    }
 }
