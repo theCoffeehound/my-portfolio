@@ -329,11 +329,12 @@
         "fi": "Yksinkertainen blob-varasto paikallisille projekteilleni."
       },
       "images": [
-        "https://placeholdmon.vercel.app/?blob-storage"
+        "/assets/images/projects/blobby_etusivu.png",
+        "/assets/images/projects/blobby_signin.png"
       ],
       "link": "#",
       "linkToApp": "https://example.com/simple-blob-storage",
-      "linkToGithub": "https://github.com/username/simple-blob-storage",
+      "linkToGithub": "",
       "technologies": [
         "Python",
         "Flask",
@@ -351,8 +352,8 @@
             "fi": "Tarkoitus"
           },
           "content": {
-            "en": "The blob-storage was created to store and manage large binary files.",
-            "fi": "Blob-varasto luotiin suurten binaaritiedostojen tallentamiseen ja hallintaan."
+            "en": "The purpose was to simulate blob storage implementations such as AWS S3 bucket, without costs.",
+            "fi": "Tarkoituksena oli simuloida esim. AWS S3 bucketin kaltaisia blob-storage toteutuksia ilman niistä aiheutuvia kuluja."
           }
         },
         {
@@ -390,7 +391,7 @@
         "XR",
         "Blender"
       ],
-      "date": "2025-03-01",
+      "date": "2023-05-01",
       "context": {
         "en": "Internship",
         "fi": "Harjoittelu"
@@ -426,8 +427,8 @@
       },
       "slug": "personel-data-register",
       "description": {
-        "en": "Internship focused on developing a VR game for AVH patients.",
-        "fi": "Harjoittelu, jossa kehitettiin VR-peliä AVH-potilaille."
+        "en": "End of course demo app",
+        "fi": "Kurssin lopussa toteutettu demo sovellus"
       },
       "images": [
         "/assets/images/projects/henkilötietorekisteri.png"
@@ -451,7 +452,7 @@
           },
           "content": {
             "en": "Show C# skill and to create a simple application that can be used to store personal data.",
-            "fi": "Tehdä henkilötietorekisteri, käyttämälä C#."
+            "fi": "Tehdä henkilötietorekisteri, käyttämällä C#."
           }
         },
         {
@@ -462,6 +463,156 @@
           "content": {
             "en": "Utilized C#, Unity.",
             "fi": "Käytössä oli C#."
+          }
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "title": {
+        "en": "python-file-sorter",
+        "fi": "python-file-sorter"
+      },
+      "slug": "python-file-sorter",
+      "description": {
+        "en": "Simple Python script to sort users current directory",
+        "fi": "Yksinkertainen Python skripti käyttäjän nykyisen hakemiston organisointiin"
+      },
+      "images": [
+        "/assets/images/projects/python-file-sorter-ui.png"
+      ],
+      "link": "#",
+      "linkToApp": "",
+      "linkToGithub": "https://github.com/theCoffeehound/python-file-sorter",
+      "technologies": [
+        "Python"
+      ],
+      "date": "2023-05-14",
+      "context": {
+        "en": "Freetime",
+        "fi": "Vapaa-aika"
+      },
+      "chapters": [
+        {
+          "title": {
+            "en": "Objective",
+            "fi": "Tavoite"
+          },
+          "content": {
+            "en": "Make my Downloads-folder less messy.",
+            "fi": "Siistiä Lataukset-kansioni."
+          }
+        },
+        {
+          "title": {
+            "en": "Technologies",
+            "fi": "Teknologiat"
+          },
+          "content": {
+            "en": "Done using Python.",
+            "fi": "Python"
+          }
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "title": {
+        "en": "media-manager",
+        "fi": "media-manager"
+      },
+      "slug": "media-manager",
+      "description": {
+        "en": "Full stack app to organize and tag media on my PC",
+        "fi": "Median organisointi työkalu"
+      },
+      "images": [
+        "/assets/images/projects/mediamanager_gallery.png",
+        "/assets/images/projects/mediamanager_gallery_tags.png",
+        "/assets/images/projects/mediamanager_home.png"
+      ],
+      "link": "#",
+      "linkToApp": "",
+      "linkToGithub": "https://github.com/theCoffeehound/media-manager",
+      "technologies": [
+        "Next.js",
+        "PostgreSQL",
+        "Prisma"
+      ],
+      "date": "2025-01-01",
+      "context": {
+        "en": "Freetime",
+        "fi": "Vapaa-aika"
+      },
+      "chapters": [
+        {
+          "title": {
+            "en": "Objective",
+            "fi": "Tavoite"
+          },
+          "content": {
+            "en": "Make media organization easier by using tags.",
+            "fi": "Tehdä kuvien ja videoiden hallinnoinnista helpompaa. Tämä on toteutettu tageja hyväksikäyttämällä."
+          }
+        },
+        {
+          "title": {
+            "en": "Technologies",
+            "fi": "Teknologiat"
+          },
+          "content": {
+            "en": "Done using Next.js. Used PostgreSQL because of the data relations and the amount of it. Also wanted to learn PostrgreSQL.",
+            "fi": "Toteutettu Next.js käyttämällä. Tietokannaksi valikoitui PostgreSQL, datan relaatioiden takia, sekä suuren määrän takia. Lisäksi halusin oppia PostgreSQL."
+          }
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "title": {
+        "en": "PHP Taskmanager",
+        "fi": "PHP Tehtävienhallinta"
+      },
+      "slug": "php-taskmanager",
+      "description": {
+        "en": "Website to handle my daily tasks",
+        "fi": "Arkisten askareiden hallintaan luotu verkkosivu"
+      },
+      "images": [
+        "/assets/images/projects/php_taskmanager.png"
+      ],
+      "link": "#",
+      "linkToApp": "",
+      "linkToGithub": "https://github.com/theCoffeehound/media-manager",
+      "technologies": [
+        "PHP",
+        "MySQL",
+        "Bootstrap"
+      ],
+      "date": "2024-02-14",
+      "context": {
+        "en": "Freetime",
+        "fi": "Vapaa-aika"
+      },
+      "chapters": [
+        {
+          "title": {
+            "en": "Objective",
+            "fi": "Tavoite"
+          },
+          "content": {
+            "en": "To have a personal website based TODO-list",
+            "fi": "Tehdä verkkosivu pohjainen TODO-lista."
+          }
+        },
+        {
+          "title": {
+            "en": "Technologies",
+            "fi": "Teknologiat"
+          },
+          "content": {
+            "en": "Done using PHP and SQL",
+            "fi": "Toteutettu käyttämällä PHP ja SQL"
           }
         }
       ]
